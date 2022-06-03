@@ -1,5 +1,5 @@
 /// lalalalalalala
-//// Yuval 
+//// Yuval Nachon
 function load() {
     var box = document.getElementById("box1");
     box.addEventListener("click", onBoxClick);
