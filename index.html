@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <script
+            src="https://browser.sentry-cdn.com/7.1.1/bundle.min.js"
+            integrity="sha384-T+srlKi46NIKF/sAARrRrsUhYVjQfcLWrYF2CzeeuD8GAJHAVZ8AHWaQrNKoV/TD"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://browser.sentry-cdn.com/7.1.1/bundle.tracing.min.js"
+            integrity="sha384-p+vO3NBBhOw0sRTPPPeAacfOonwgsAL2xTEYl6sQIHhmQ17LLZkxHV2/s9VSEeTn"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://browser.sentry-cdn.com/7.1.1/bundle.debug.min.js"
+            integrity="sha384-JoZcKyngzyZRCEqnBUWe/BYdWIQtwZCVluZSE2YEgG/09VjJwzSkRsaiAz8I0NU3"
+            crossorigin="anonymous"
+          ></script>
         <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
-        
+        <p>Software Engineering 101</p>
+        <div style="width:50px; height:50px; border: 3px solid red; margin-bottom:10px;" id="box1"></div>
+        <button type="button" onclick="triggerError()">Trigger an Error #1</button>
+        <button type="button" onclick="generateAnError()">Trigger an Error #2</button>
     </body>
 </html>
