@@ -19,7 +19,7 @@ function onBoxClick(e) {
         box.style.backgroundColor = "white";
     }
     else {
-        box.style.backgroundColor = "blue";
+        ox.style.backgroundColor = "blue";
     }
 };
 
