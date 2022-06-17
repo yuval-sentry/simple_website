@@ -5,11 +5,11 @@ function load() {
         integrations: [new Sentry.Integrations.BrowserTracing()],
         debug: true,
         tracesSampleRate: 1.0,
-        // integrations: function(integrations) {
-        //     return integrations.filter(function(integration) {
-        //         return integration.name !== "InboundFilters" && integration.name !== "Dedupe";
-        //     });
-        // }
+        integrations: function(integrations) {
+            return integrations.filter(function(integration) {
+                return integration.name !== "InboundFilters" && integration.name !== "Dedupe";
+            });
+        }
       });
 
 
