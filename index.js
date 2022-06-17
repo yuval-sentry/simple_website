@@ -26,6 +26,8 @@ function onBoxClick(e) {
     }
 };
 
+
+
 function generateAnError() {
     var obj = {};
     obj.david();  
