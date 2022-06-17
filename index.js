@@ -11,6 +11,7 @@ function load() {
             });
         }
       });  
+      });
 
 
     var box = document.getElementById("box1");
@@ -26,6 +27,9 @@ function onBoxClick(e) {
     }
 };
  /// Just an example
+
+
+
 function generateAnError() {
     var obj = {};
     obj.david();  
