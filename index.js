@@ -22,10 +22,10 @@ function onBoxClick(e) {
         box.style.backgroundColor = "white";
     }
     else {
-        box.style.backgroundColor = "blue";
+        ox.style.backgroundColor = "blue";
     }
 };
-
+ /// Just an example
 function generateAnError() {
     var obj = {};
     obj.david();  
