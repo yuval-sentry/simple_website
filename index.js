@@ -11,7 +11,6 @@ function load() {
             });
         }
       });  
-      });
 
 
     var box = document.getElementById("box1");
